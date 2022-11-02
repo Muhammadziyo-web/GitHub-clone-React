@@ -29,7 +29,7 @@ function App() {
   return (
   
   <>
-  {(window.location.pathname.length < 2) ? <Navigate to="/overview" /> : ''}
+  {(window.location.pathname.length < 2) ? <Navigate to="/overview" /> : console.log('hello')}
 
   <context.Provider value={{userInfo,getFollowers,getFollowing}}>
 
